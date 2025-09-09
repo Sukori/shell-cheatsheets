@@ -1,0 +1,4 @@
+mv
+	-i	ask before replacing files
+	-u	move only if the source is newer
+	-v	verbose. show files being moved

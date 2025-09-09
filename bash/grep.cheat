@@ -1,0 +1,4 @@
+grep
+	-i	search ignoring case
+	-r	search throuch all files in a directory and its subdirectories
+	-v	find lines that do not match the pattern

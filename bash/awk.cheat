@@ -1,0 +1,21 @@
+awk
+	-F	set what separates the data fileds
+	-v	set a variable to be used in the script
+	-f	use a file as the source of the awk program
+
+Examples:
+
+awk -F"," '' test_dump/file.csv
+=> split with "," and do nothing with the data
+
+awk -F"," '{print}' test_dump/file.csv
+=> split with "," and print the data
+
+awk -F"," '{print $1}' test_dump/file.csv
+=> split with "," and print the first column of the data
+
+awk -F"," -v foo="amnt:" '{print foo, $3}' test_dump/file.csv
+=> split with ",", set the variable foo as "amnt:" string and print the value of foo appended to the third column of the data
+
+awk -F"," -v foo="amnt:" '{sum += $3} END {print foo, sum}' test_dump/file.csv
+=> split with ",", set the variable foo as "amnt:" string, compute the sum variable as the addition of all the values in the third column and print the value of foo appended to the value of sum

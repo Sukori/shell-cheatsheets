@@ -1,0 +1,3 @@
+pwd
+	-L	default. shows current working directory including symbolic links
+	-P	shows the current working directory resolving the symbolic links to their actual location

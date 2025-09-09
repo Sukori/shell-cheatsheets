@@ -1,0 +1,6 @@
+tail
+	-n [num]	display the last [num] lines of a file
+	-f		follow as it grows (vim edits do not work, `use echo >>` or scripts)
+	-c [num]	display the last [num] bytes of the file (char)
+	--pid=[pid]	terminate after the process [pid] dies
+	--retry		keep trying to open a file even if unreachable

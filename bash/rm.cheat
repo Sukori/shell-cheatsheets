@@ -1,0 +1,5 @@
+rm
+	-r	delete a folder an everything inside it
+	-i	ask before deleting each file
+	-f	force delete without asking
+	-v	verbose. show files being removed

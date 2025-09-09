@@ -1,0 +1,12 @@
+ls
+	-l	long listing format
+	-a	include hidden files
+	-h	human readable sizes
+	-t	sort by modification time
+	-r	reverse order while sorting
+	-R	list subdirectories recursively
+	-S	sort by file size
+	-1	list one file per line
+	-d	list directories themselves, not their contents
+	-F	append indicator (one of */=@|) to entries
+		Display a slash (‘/’) immediately after each pathname that is a directory, an asterisk (‘*’) after each that is executable, an at sign (‘@’) after each symbolic link, an equals sign (‘=’) after each socket, a percent sign (‘%’) after each whiteout, and a vertical bar (‘|’) after each that is a FIFO.

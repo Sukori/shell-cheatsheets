@@ -1,0 +1,5 @@
+cd
+	..	move one directory up
+	/	move to root directory
+	~	move to home directory
+	-	move to the previous directory

@@ -1,0 +1,5 @@
+cp
+	-r	copy all files and folders inside a directory
+	-i	ask before replacing files
+	-u	copy only if the source is newer
+	-v	verbose. show files being copied

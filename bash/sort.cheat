@@ -1,0 +1,11 @@
+sort
+	-r	sort in reverse order
+	-n	sort numbers correctly (Default is lexicographically)
+	-k	sort by a specific column
+	-u	remove duplicate lines
+	-t	specify a delimiter for fileds (default is whitespace)
+
+Example:
+
+sort -n -t',' -k4 -k3r test_dump/file.csv
+=> sorts numbers correctly (useful for first column), sets ',' as delimiter, sorts by 4th field, sorts 3th field in reverse order (keeping the first sorting by the 4th field valid)

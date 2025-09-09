@@ -1,0 +1,5 @@
+cat
+	-n	add numbers to each lines
+	-b	add numbers to lines with text only
+	-s	remove extra empty lines
+	-v	show non printing characters (except tabs and end of lines)

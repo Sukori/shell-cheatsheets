@@ -1,0 +1,5 @@
+touch
+	-a	udpate only when the file was last read
+	-m	update only when the file was last changed
+	-t	set the timestamp at a specific time
+	-c	do not create any file

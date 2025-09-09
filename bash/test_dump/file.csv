@@ -1,0 +1,9 @@
+id,Created,Amount,Currency,Description,Customer
+1,2025-09-09,433,GBP,Subscription,Sarah Connor
+2,2025-02-01,100,USD,Payment,Bob Cottick
+3,2025-05-12,375,CHF,Purchase,Lena Thono
+4,2025-03-24,200,EUR,Refund,George Frenc
+5,2025-06-12,385,CHF,Purchase,Lena Thono
+6,2025-01-01,110,USD,Payment,Bob Cottick
+7,2025-10-09,443,GBP,Subscription,Sarah Connor
+8,2025-04-24,210,EUR,Refund,George Frenc

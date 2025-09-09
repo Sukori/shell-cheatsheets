@@ -1,0 +1,4 @@
+mkdir
+	-p	create parent directories as needed
+	-v	show a message for each directory created
+	-m	set mode (permissions)

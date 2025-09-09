@@ -1,0 +1,3 @@
+head
+	-n [num]	display the first [num] lines of a file
+	-c [num]	display the first [num] bytes of a file (char)

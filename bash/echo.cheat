@@ -1,0 +1,4 @@
+echo
+	-n	do not add a new line at the end of the output
+	-e	allow special characters (\n for new line, for instance)
+	-E	default. do not allow special characters

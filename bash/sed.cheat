@@ -1,0 +1,27 @@
+sed
+	-i	edit the files directly without the need to save separately
+	-e	add the script to the commands to be executed
+	-n	do not automatically print lines
+	-r	use extended regular expressions
+	-f	add a script from a file
+	-l	specify line length fo l command (not standard on my macos zsh)
+
+Examples:
+
+sed 's/is/loves/g' test_dump/test 
+=> searches "is" and replaces by "loves" from the file, then prints to standard output (use `> other_file` to save in another file)
+
+sed -i '' 's/is/loves/g' test.txt
+=> searches "is" and replaces by "loves" from the file, then saves in the file
+
+sed -i '.loves' 's/is/loves/g' test.txt
+=> searches "is" and replaces by "loves" from the file, then saves in the file AND a new file with ".loves" extension appended to the filename
+
+sed -r 's/(This|this)/The big/g' test.txt > test.txt.reg 
+=> searches "This" OR "this" and replaces by "The big" from the file, then saves in the output file.reg
+
+sed -f script.sed test.txt
+=> applies the content of "script.sed" on file
+
+sed 's/^/Prefix: /g' test.txt
+=> takes the beginning of each line, appends "Prefix: " on them and outputs to STDOUT

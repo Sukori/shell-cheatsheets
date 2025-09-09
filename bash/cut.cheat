@@ -1,0 +1,10 @@
+cut
+	-d		choose a delimiter (-d',' chooses the coma. Default is tab)
+	-f		select a specific field to display
+	--complement	Show all fileds except the selected ones (not standard to my macos zsh)
+	-w		uses whitespaces (space and tab) as delimiters (multiple successive delimiters count as one)
+
+Example:
+
+cut -w -f1-2 test_dump/test.txt
+=> uses whitespaces as delimiters and displays fields 1 and 2
